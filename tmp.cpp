@@ -1,3 +1,4 @@
+#include <time.h>
 #include <windows.h>
 
 #include <algorithm>
@@ -16,8 +17,6 @@
 #include <stack>
 #include <string>
 #include <vector>
-
-#include "tmp1.cpp"
 #define ms(x, n) memset(x, n, sizeof(x));
 using namespace std;
 //*(int(*)[10])arr_name
@@ -28,19 +27,26 @@ inline int lowbit(int x) { return x & -x; }
 const int MAP_SIZE = 10;
 
 int main() {
-    const int* p;
-    int a = 10000;
-    p = &a;
-    int b = 10;
-    p = &b;
-    int num = 0;
-    int* const p1 = &num;
-    *p1 += 1;
-    cout << *p1 << endl;
-    Apple apple = Apple(10, 20);
-    cout << apple.getWeight() << endl;
-    cout << apple.getPrice() << endl;
+    // const int* p;
+    // int a = 10000;
+    // p = &a;
+    // int b = 10;
+    // p = &b;
+    // int num = 0;
+    // int* const p1 = &num;
+    // *p1 += 1;
+    // cout << *p1 << endl;
+    // Apple apple = Apple(10, 20);
+    // cout << apple.getWeight() << endl;
+    // cout << apple.getPrice() << endl;
 
+    // while (1) {
+    //     clock_t time = clock();
+    //     cout << time << endl;
+    //     Sleep(500);
+    // }
+
+    SetCursorPos(1, 1);
     // system("pause");
     return 0;
 }
