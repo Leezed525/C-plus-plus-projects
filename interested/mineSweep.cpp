@@ -23,9 +23,9 @@ const int INF = 0x3f3f3f3f;
 const double PI = acos(-1);
 inline int lowbit(int x) { return x & -x; }
 // 地图大小
-const int MAP_SIZE = 50;
+const int MAP_SIZE = 20;
 // 总共有多少雷
-const int MINE_COUNT = 300;
+const int MINE_COUNT = 30;
 // 当前找到了多少雷
 int find_count = 0;
 // 展示地图

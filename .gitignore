@@ -1,2 +1,4 @@
 .vscode
 zexe/*.exe
+cmake-build-debug/
+.idea/
